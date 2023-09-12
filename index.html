@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Sistema de Biblioteca</h1>
+
+    <section id="registroLeitor">
+        <h2>Registrar Leitor</h2>
+        <label for="registroNome">Nome do Leitor:</label>
+        <input type="text" id="registroNome">
+        <button onclick="registrarLeitor()">Registrar</button>
+    </section>
+    
+    <section id="emprestimo">
+        <h2>Empréstimo</h2>
+        <label for="nomeLeitor">Nome do Leitor:</label>
+        <input type="text" id="nomeLeitor">
+        <label for="ISBN">ISBN do Livro:</label>
+        <input type="text" id="ISBN">
+        <button onclick="realizarEmprestimo()">Emprestar</button>
+    </section>
+    
+    <section id="devolucao">
+        <h2>Devolução</h2>
+        <label for="ISBNDevolucao">ISBN do Livro:</label>
+        <input type="text" id="ISBNDevolucao">
+        <button onclick="realizarDevolucao()">Devolver</button>
+    </section>
+
+    <section id="listaLivros">
+        <h2>Livros Disponíveis</h2>
+        <ul id="livrosDisponiveis"></ul>
+    </section>
+
+    <section id="listaLivrosEmprestados">
+        <h2>Livros Emprestados</h2>
+        <ul id="livrosEmprestados"></ul>
+    </section>
+
+    <section id="listaLeitoresRegistrados">
+        <h2>Leitores Registrados</h2>
+        <ul id="leitoresRegistrados"></ul>
+    </section>
+
+    <section id="historico">
+        <h2>Histórico</h2>
+        <ul id="listaHistorico"></ul>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
