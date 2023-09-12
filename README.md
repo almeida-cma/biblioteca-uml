@@ -10,6 +10,6 @@ Com base nas funcionalidades do sistema de bilioteca via esboço em javascript c
    a) Emprestar livro;
    b) Devolver livro;
 <br>
-Ao final da atividade enviar os 4 diagramas para o github de vocês em parte pública pasta (atividade-uml-biblioteca).
+Ao final da atividade enviar os 4 diagramas para o github de vocês em parte pública pasta (uml-biblioteca).
 <br>
-Informar a pasta ao professor.
+Informar usuário ao professor.
